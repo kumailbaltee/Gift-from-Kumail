@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift from Kumail 🎁</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <canvas id="fireworks-canvas"></canvas>
+
+        <!-- Stage 1: Landing -->
+        <div id="landing-stage" class="stage active">
+            <div class="glow-container">
+                <h1 class="year-text">2025</h1>
+            </div>
+            <button id="launch-btn" class="premium-button">Launch New Year 🚀</button>
+        </div>
+
+        <div id="celebration-stage" class="stage hidden">
+            <h1 class="greeting-text">A Special Gift <span class="from-text">from Kumail</span></h1>
+            <h2 class="happy-new-year">Happy New Year 2026!</h2>
+            <div class="emoji-container">
+                <div class="pet-emoji">🐶</div>
+                <div class="pet-emoji">🐱</div>
+                <div class="pet-emoji">🐰</div>
+                <div class="pet-emoji">🐹</div>
+                <div class="pet-emoji">🐼</div>
+            </div>
+            <div class="sub-message">Wishing you a year full of joy and prosperity! 🎊</div>
+        </div>
+    </div>
+    <audio id="bg-music" loop>
+        <source src="https://www.chosic.com/wp-content/uploads/2021/11/Happy-New-Year.mp3" type="audio/mpeg">
+    </audio>
+    <script src="main.js"></script>
+</body>
+</html>
